@@ -1,10 +1,19 @@
 package com.exercise20palindrome.app;
 
+import com.exercise20palindrome.model.StringApp;;
+
 public class PalindromeApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		// 
+		String cadPalindrome1 = "Anita lava la tina.";
+		String cadPalindrome2 = "Yo dono rosas oro no doy!!!";
+		String cadPalindrome3 = "Isaac no ronca asi";
+		
+		System.out.println(StringApp.isPalindrome(cadPalindrome1));
+		System.out.println(StringApp.isPalindrome(cadPalindrome2));
+		System.out.println(StringApp.isPalindrome(cadPalindrome3));
+		
 	}
 
 }
