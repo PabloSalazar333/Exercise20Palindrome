@@ -13,6 +13,10 @@ public class PalindromeApp {
 		System.out.println(StringApp.isPalindrome(cadPalindrome1));
 		System.out.println(StringApp.isPalindrome(cadPalindrome2));
 		System.out.println(StringApp.isPalindrome(cadPalindrome3));
+		System.out.println("");
+		System.out.println(StringApp.isPalindromeStack(cadPalindrome1));
+		System.out.println(StringApp.isPalindromeStack(cadPalindrome2));
+		System.out.println(StringApp.isPalindromeStack(cadPalindrome3));
 		
 	}
 
